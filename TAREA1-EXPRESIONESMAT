@@ -1,0 +1,182 @@
+Funcion ejercicio1(0)
+	// Dado a=3 y b=7, encuentra el valor de y = 2 * a + b - a mod 3.
+	// Definimos las variables a, b omo enteros
+	// A las variables a, b les asignamos los valores dados en el enunciado 3, 7
+	// Realizamos el proceso de la operacion 
+	// y = 2 * a + b - a mod 3
+	// y = 2 * 3 + 7 - 3 mod 3
+	// y = 6 + 7 - 0
+	// y = 13
+	// Finalmente mostramos el resultado colocando la instruccion "Escribir" junto a la variable y
+	
+	Escribir "EJERCICIO  1"
+	Definir a, b, resul Como entero
+	a=3; b=7; resul=0
+	resul = 2 * a + b - a mod 3
+	Escribir " el resultado de y es: " resul
+FinFuncion
+
+Funcion ejercicio2(0)
+	// Si a=10 y b=4, calcula el valor de z = a * b + 3 mod a + b.
+	// Definimos las variables a, b como enteros
+	// A las variables a, b les asignamos los valores dados en el enunciado 10, 4
+	// Realizamos el proceso de la operacion 
+	// z = a * b + 3 mod a + b
+	// z = 10 * 4 + 3 mod 10 + 4
+	// z = 40 + 3 + 4
+	// z = 47
+	// Finalmente mostramos el resultado colocando la instruccion "Escribir" junto a la variable z
+	
+	Escribir "EJERCICIO  2"
+	Definir a, b, resul Como Entero
+	a=10; b=4; resul=0
+	resul = a * b + 3 mod a + b
+	Escribir " el resultado de z es: " resul
+FinFuncion
+
+Funcion ejercicio3(0)
+	// Con a=6 y b=2, determina el valor de w = a - b + 2 * a mod b.
+	// Definimos las variables a, b como enteros
+	// A las variables a, b les asignamos los valores dados en el enunciado 6, 2
+	// Realizamos la operacion de la variable w
+	// w = a - b + 2 * a mod b
+	// w = 6 - 2 + 2 * 6 mod 2
+	// w = 6 - 2 + 12 mod 2
+	// w = 6 - 2 + 0
+	// w = 4
+	// Finalmente mostramos el resultado colocando la instruccion "Escribir" junto a la variable w
+	
+	Escribir "EJERCICIO  3"
+	Definir a, b, resul Como Entero
+	a=6; b=2; resul=0
+	resul = a - b + 2 * a mod b
+	Escribir "el resultado de w es: " resul 
+FinFuncion 
+
+Funcion ejercicio4(0)
+	// Para a=8 y b=5, encuentra el valor de v = 2 * b + a div 2 + 4 * b mod a.
+	// Definimos las variables a, b como enteros
+	// A las variables a, b les asignamos los valores dados en el enunciado 8, 5
+	// Calculamos v
+	// v = 2 * b + a div 2 + 4 * b mod a
+	// v = 2 * 5 + 8 div 2 + 4 * 5 mod 8 
+	// v = 10 + 4 + 20 mod 8
+	// v = 10 + 4 + 0
+	// v= 14
+	
+	Escribir "EJERCICIO  4"
+	Definir a, b, resul Como Entero
+	a=8; b=5; resul=0
+	resul = 2 * b + a % 2 + 4 * b mod a
+	Escribir " el resultado de v es: " resul 
+FinFuncion
+
+Funcion ejercicio5(0)
+	// Si a=12 y b=9, calcula el valor de u = b - a + 3 * a mod b
+	// Definimos las variables a, b como enteros
+	// Asignamos a las variables a, b los valores 12, 9
+	// Hacemos el proceso de la operacion de u
+	// u = b - a + 3 * a mod b
+	// u = 9 - 12 + 3 * 12 mod 9
+	// u = 9 - 12 + 36 mod 9
+	// u = 9 - 12 + 0
+	// u =  - 3
+	
+	Escribir "EJERCICIO  5"
+	Definir a, b, resul Como Entero
+	a=12; b=9; resul=0
+	resul = b - a + 3 * a mod b
+	Escribir "el resultado de u es: " resul
+FinFuncion
+
+Funcion ejercicio6(0)
+	// Orden de procedencia:  (), ^ *, / mod div, + -
+	//(5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	// Necesitaremos un resultado, por lo tanto declararemos una variable logica cuyo nombre serà "resultado" 
+	// Calculamos el ejercicio
+	// (5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	// (5 + 6) + 9 > 15 * 14 % 3
+	// 11 + 9 >  210 % 3
+	// 11 + 9 > 0
+	// 20 > 0
+	// 20
+	
+	Escribir "EJERCICIO  6"
+	Definir resul Como logico 
+	resul = (5 + 3 * 2) + 9 > (3 * 5 * 14 % 3)
+	Escribir "20 es > 0 por lo tanto es: " resul
+FinFuncion
+
+Funcion ejercicio7(0)
+	// Orden de procedencia:  (), ^ *, / mod div, + -
+	//2 *(4 - 10 + 8)/2* 36 *(1/2)
+	// Declararemos una variable real cuyo nombre serà "resultado" 
+	// Realizaremos la operaciomn
+	// 2 *(4 - 10 + 8) / 2* 36 *(1/2)
+	// 2* (-6 +8) / 2 * 36 * 0.5
+	// 2 * 2 / 2 * 36 * 0.5
+	// 4 /  2  * 36 * 0.5
+	// 2 * 18
+	// 36
+	
+	Escribir "EJERCICIO  7"
+	Definir resul Como real
+	resul = 2 *(4 - 10 + 8)/2* 36 *(1/2)
+	Escribir " el resultado de esta operacion es: " resul 
+FinFuncion
+
+Funcion ejercicio8(0)
+	// Orden de procedencia:  (), ^ *, / mod div, + -
+	// 260 / 12 + 54 % 3 - 85 % 7
+	// Declararemos una variable decimal cuyo nombre serà "resultado" 
+	// Realizaremos la operacion
+	// 260 / 12 + 54 % 3 - 85 % 7
+	// 21.66 + 0 - 1
+	// 20.66
+	
+	Escribir "EJERCICIO  8"
+	Definir resul Como Real
+	resul= 260 / 12 + 54 % 3 - 85 % 7
+	Escribir "el resultado de esta operacion es: " resul
+FinFuncion 
+
+Funcion ejercicio9(0)
+	// Orden de procedencia:  (), ^ *, / mod div, + -
+	// (48 < 2 * 3) | | (2 * 7 < 12)
+	// Declararemos una variable logico cuyo nombre serà "resul" 
+	// Realizamos el proceso de la operacion 
+	// (48 < 2 * 3) | | (2 * 7 < 12)
+	// (48 < 6) / /  (14 < 12)
+	// ( Falso / / Falso )
+	
+	Escribir "EJERCICIO  9"
+	Definir resul Como logico 
+	resul = (48 < 2 * 3) o (2 * 7 < 12) 
+	Escribir "el resultado de este ejercicio es: " resul
+FinFuncion
+
+Funcion ejercicio10(0)
+	// Orden de procedencia:  (), ^ *, / mod div, + -
+	// (8 > 2) | | (932 < 23) ) && 4 == 2
+	// ( verdadero // Falso )  && 4 == 2
+	// Verdadero && Falso
+	
+	Escribir "EJERCICIO  10"
+	Definir resul Como Logico
+	resul= ((8 > 2) o (932 < 23) ) o 4 == 2
+	Escribir "el resultado de la operacion es: " resul 
+FinFuncion
+
+Algoritmo expresionesmat
+	ejercicio1(0)
+	ejercicio2(0)
+	ejercicio3(0)
+	ejercicio4(0)
+	ejercicio5(0)
+	ejercicio6(0)
+	ejercicio7(0)
+	ejercicio8(0)
+	ejercicio9(0)
+	ejercicio10(0)
+FinAlgoritmo
+	
